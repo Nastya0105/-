@@ -19,7 +19,8 @@ namespace WindowsForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Run(new Form2());
+            Form2 form = new Form2();
+            form.Show();
         }
     }
 }
